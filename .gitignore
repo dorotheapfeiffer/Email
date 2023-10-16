@@ -1,0 +1,69 @@
+# Compiled source #
+###################
+*.o
+*.a
+*.so
+*.pyc
+*.gcda
+*.gcno
+a.out
+
+# Misc programs
+
+*Test$
+
+#directories
+build*/
+cmake-build-*/
+doxygen/
+# MacOs folder metadata
+.DS_Store
+
+#IDE
+CMakeLists.txt.user
+.idea/
+.atom*
+.vscode/
+*.code-workspace
+*.*~
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+attic/
+
+!build
+build/*
+!build/Email.pro
